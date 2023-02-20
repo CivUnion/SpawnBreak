@@ -1,0 +1,4 @@
+name: BreakSpawn
+version: '${project.version}'
+main: com.civrev.breakspawn.BreakSpawn
+api-version: 1.18

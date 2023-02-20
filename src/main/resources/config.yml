@@ -1,0 +1,16 @@
+# Example config file for BreakSpawn plugin
+
+# This is a list of material types and the mobs that can be spawned when blocks are broken
+spawns:
+  # Define a new spawn for stone blocks
+  STONE:
+    # Define a new mob type called "gazelle"
+    gazelle:
+      # The material that must be broken to trigger the spawn
+      material: STONE
+      # The chance of the mob spawning (0 to 1)
+      chance: 1
+      # The name of the world where the block must be broken to trigger the spawn (optional)
+      world: world
+      # The level of the mob to spawn
+      level: 1
